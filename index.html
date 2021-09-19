@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./app/bootstrap-4.0.0/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Luxstay Template</title>
+</head>
+<body> 
+    <div class="wrapper">
+        <!-- Header -->
+        <div class="header">
+            <div class="content-header">
+                <a href="#" class="icon-header">
+                    <img src="./Image/img-icon.png" alt="" height="60px">
+                </a>
+                <div class="search-header">
+                    <div class="search-input">
+                        <i class="fas fa-search"></i>
+                        <input class="input-text" type="text" placeholder="Tim kiem">
+                    </div>
+                    <button type="button"  class="btn btn-light date-search">
+                        <i class="fa fa-calendar"></i>
+                        Ngay
+                    </button>
+                    <button type="button"  class="btn btn-light customer-search">
+                        <i class="fa fa-calendar"></i>
+                        So Khach
+                    </button>
+                    <i class="fa fa-search search-icon"></i>
+                </div>
+                <i class="fa fa-bars toggle-menu"></i>
+                <div class="menu">
+                    <ul id="menu-list">
+                        <li class="menu-item"><a href="#">Guide</a></li>
+                        <li class="menu-item"><a href="#">Host</a></li>
+                        <li class="menu-item"><a href="#">Đăng ký</a></li>
+                        <li class="menu-item"><a href="#">Đăng nhập</a></li>
+                        <li class="menu-item">
+                            <button class="btn btn-light btn-language">
+                                  <img src="./Image/icon-vietnam.png" alt="" height="25px">
+                                  <span >VND</span>
+                                  <i class="fa fa-caret-down"></i>
+                                </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Calendar -->
+            <div class="calendar">
+                <h1>September 2021</h1>
+                <table class="calendar-data">
+                    <tr>
+                        <th>Mon</th>
+                        <th>Tue</th>
+                        <th>Wed</th>
+                        <th>Thu</th>
+                        <th>Fri</th>
+                        <th>Sat</th>
+                        <th>Sun</th>
+                    </tr> 
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>5</td>
+                    </tr> 
+                    <tr>
+                        <td>6</td>
+                        <td>7</td>
+                        <td>8</td>
+                        <td>9</td>
+                        <td>10</td>
+                        <td>11</td>
+                        <td>12</td>
+                    </tr> 
+                    <tr>
+                        <td>13</td>
+                        <td>14</td>
+                        <td>15</td>
+                        <td>16</td>
+                        <td>17</td>
+                        <td>18</td>
+                        <td>19</td>
+                    </tr> 
+                    <tr>
+                        <td>20</td>
+                        <td>21</td>
+                        <td>22</td>
+                        <td>23</td>
+                        <td>24</td>
+                        <td>25</td>
+                        <td>26</td>
+                    </tr> 
+                    <tr>
+                        <td>27</td>
+                        <td>28</td>
+                        <td>29</td>
+                        <td>30</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr> 
+                </table>
+            </div>
+            <!-- Number Customer -->
+            <div class="customer">
+                <div class="customer-item">
+                    <span>Nguoi lon</span>
+                    <span>-</span>
+                    <span>0</span>
+                    <span>+</span>
+                </div>
+                <div class="customer-item">
+                    <span>Tre em</span>
+                    <span>-</span>
+                    <span>0</span>
+                    <span>+</span>
+                </div>
+                <div class="customer-item">
+                    <span>So sinh</span>
+                    <span>-</span>
+                    <span>0</span>
+                    <span>+</span>
+                </div>
+            </div>
+        </div>
+        <!-- Banner slider -->
+        <div class="banner" > 
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators ">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active item-slider"></li>
+                    <li class="item-slider" data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100" src="./Image/img-slider1.png" alt="First slide">
+                  </div>
+                    <div class="carousel-item">
+                    <img class="d-block w-100" src="./Image/img-slider2.png" alt="Second slide">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Welcome sign -->
+        <div class="welcome">
+            <h3 class="welcome-header">Chào mừng đến với Luxstay!</h3>
+            <p class="welcome-text">Đặt chỗ ở, homestay, cho thuê xe, trải nghiệm và nhiều hơn nữa trên Luxstay</p>
+            <p class="welcome-sign"> 
+               <a href="">Đăng nhập</a> hoặc <a href="">Đăng ký</a> để trải nghiệm !
+            </p>
+
+        </div>
+        <!-- Hot Address -->
+        <div class="address">
+            <h2 class="address-header">Địa điểm nổi bật</h2>
+            <p class="address-text">Cùng Luxstay bắt đầu chuyến hành trình chinh phục thế giới của bạn</p>
+            <div class="address-slider" data-slick='{"slidesToShow": 5, "slidesToScroll": 2}'>
+                <div class="address-slider-item">
+                    <div class="address-slider-text">
+                        <h3 class="address-slider-location">Ha Noi</h3>
+                        <p><span class="address-slider-number">2819</span> Cho o</p>
+                    </div>
+                    <img class="address-slider-img" src="./Image/img-location1.png" alt="">
+                </div>
+            
+                <div class="address-slider-item">
+                    <div class="address-slider-text">
+                        <h3 class="address-slider-location">TP. Ho Chi Minh</h3>
+                        <p><span class="address-slider-number">2819</span> Cho o</p>
+                    </div>
+                    <img class="address-slider-img" src="./Image/img-location2.png" alt="">
+                </div>
+
+                <div class="address-slider-item">
+                    <div class="address-slider-text">
+                        <h3 class="address-slider-location">Vung Tau</h3>
+                        <p><span class="address-slider-number">2819</span> Cho o</p>
+                    </div>
+                    <img class="address-slider-img" src="./Image/img-location3.png" alt="">
+                </div>
+
+                <div class="address-slider-item">
+                    <div class="address-slider-text">
+                        <h3 class="address-slider-location">Da Lat</h3>
+                        <p><span class="address-slider-number">2819</span> Cho o</p>
+                    </div>
+                    <img class="address-slider-img" src="./Image/img-location4.png" alt="">
+                </div>
+
+                <div class="address-slider-item">
+                    <div class="address-slider-text">
+                        <h3 class="address-slider-location">Da Nang</h3>
+                        <p><span class="address-slider-number">2819</span> Cho o</p>
+                    </div>
+                    <img class="address-slider-img" src="./Image/img-location5.jpg" alt="">
+                </div>
+
+                <div class="address-slider-item">
+                    <div class="address-slider-text">
+                        <h3 class="address-slider-location">Nha Trang</h3>
+                        <p><span class="address-slider-number">2819</span> Cho o</p>
+                    </div>
+                    <img class="address-slider-img" src="./Image/img-location6.png" alt="">
+                </div>
+
+                <div class="address-slider-item">
+                    <div class="address-slider-text">
+                        <h3 class="address-slider-location">Quang Ninh</h3>
+                        <p><span class="address-slider-number">2819</span> Cho o</p>
+                    </div>
+                    <img class="address-slider-img" src="./Image/img-location7.png" alt="">
+                </div>
+                <div class="address-slider-item">
+                    <div class="address-slider-text">
+                        <h3 class="address-slider-location">Hoi An</h3>
+                        <p><span class="address-slider-number">2819</span> Cho o</p>
+                    </div>
+                    <img class="address-slider-img" src="./Image/img-location8.png" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- Exclusive Offer-->
+        <div class="offer">
+            <h2 class="offer-header">
+                Ưu đãi độc quyền
+            </h2>
+            <p class="offer-text">
+                Chỉ có tại Luxstay, hấp dẫn và hữu hạn, book ngay!
+            </p>
+            <div class="offer-list row">
+                <div class="offer-item col-12 col-md-4">
+                    <img src="./Image/img-voucher1.jpg" alt="" class="offer-image">
+                </div>
+                <div class="offer-item col-12 col-md-4">
+                    <img src="./Image/img-voucher2.jpg" alt="" class="offer-image">
+                </div>
+                <div class="offer-item col-12 col-md-4">
+                    <img src="./Image/img-voucher3.jpg" alt="" class="offer-image">
+                </div>
+            </div>
+        </div>
+        <!-- Recommend  -->
+        <div class="recommend">
+            <h2 class="recommend-header">Địa điểm nổi bật</h2>
+            <p class="recommend-text">Cùng Luxstay bắt đầu chuyến hành trình chinh phục thế giới của bạn</p>
+            <div class="recommend-slider" data-slick='{"slidesToShow": 4, "slidesToScroll": 1}'>
+                <div class="recommend-slider-item">
+                    <img class="recommend-slider-img" src="./Image/img-recommend1.jpg" alt="">
+                    <div class="recommend-slider-text">
+                        <h3 class="recommend-slider-location">Vi vu ngoại thành Hà Nội</h3>
+                        <p class="recommend-slider-des">Trải nghiệm không gian thoáng đãng cho chuyến đi ngay gần Hà Nội</p>
+                    </div>
+                </div>
+            
+                <div class="recommend-slider-item">
+                    <img class="recommend-slider-img" src="./Image/img-recommend2.jpg" alt="">
+                    <div class="recommend-slider-text">
+                        <h3 class="recommend-slider-location">Vũng Tàu Biệt thự hồ bơi</h3>
+                        <p class="recommend-slider-des">Những căn biệt thự có hồ bơi dành cho kỳ nghỉ của bạn tại Vũng Tàu</p>
+                    </div>
+                </div>
+
+                <div class="recommend-slider-item">
+                    <img class="recommend-slider-img" src="./Image/img-recommend3.jpg" alt="">
+                    <div class="recommend-slider-text">
+                        <h3 class="recommend-slider-location">Hà Nội nội thành lãng mạn</h3>
+                        <p class="recommend-slider-des">Không gian lãng mạn dành cho cặp đôi tại trung tâm Hà Nội</p>
+                    </div>
+                </div>
+
+                <div class="recommend-slider-item">
+                    <img class="recommend-slider-img" src="./Image/img-recommend4.jpg" alt="">
+                    <div class="recommend-slider-text">
+                        <h3 class="recommend-slider-location">Sài Gòn cần là có ngay</h3>
+                        <p class="recommend-slider-des">Những căn homestay có 01 phòng ngủ tại Sài Gòn có thể đặt nhanh chóng</p>
+                    </div>
+                </div>
+
+                <div class="recommend-slider-item">
+                    <img class="recommend-slider-img" src="./Image/img-recommend5.jpg" alt="">
+                    <div class="recommend-slider-text">
+                        <h3 class="recommend-slider-location">Bể bơi & BBQ</h3>
+                        <p class="recommend-slider-des">Trải nghiệm đẳng cấp tại những căn homestay có bể bơi đẹp và khu vực BBQ ấm cúng.</p>
+                    </div>
+                </div>
+
+                <div class="recommend-slider-item">
+                    <img class="recommend-slider-img" src="./Image/img-recommend6.jpg" alt="">
+                    <div class="recommend-slider-text">
+                        <h3 class="recommend-slider-location">Siêu giảm giá!</h3>
+                        <p class="recommend-slider-des">Top chỗ ở giảm giá đến 50% từ các chủ nhà thân thiện trên Luxstay.</p>
+                    </div>
+                </div>
+
+                <div class="recommend-slider-item">
+                    <img class="recommend-slider-img" src="./Image/img-recommend7.jpg" alt="">
+                    <div class="recommend-slider-text">
+                        <h3 class="recommend-slider-location">Gần Trung tâm!</h3>
+                        <p class="recommend-slider-des">Dễ dàng di chuyển khắp nơi với top chỗ ở khu vực trung tâm thành phố Hồ Chí Minh</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- How to Use -->
+        <div class="howtouse">
+
+            <h2 class="howtouse-header">Hướng dẫn sử dụng</h2>
+            <p class="howtouse-text">Đặt chỗ nhanh, thanh toán đơn giản, sử dụng dễ dàng</p>
+            <div class="howtouse-content row">
+                <div class="col-6 col-md-3 ">
+                    <img src="./Image/img-howtouse1.jpg" alt="" class="howtouse-image">
+                </div>
+                <div class="col-6 col-md 3 ">
+                    <img src="./Image/img-howtouse2.jpg" alt="" class="howtouse-image">
+                </div>
+                <div class="col-6 col-md 3 ">
+                    <img src="./Image/img-howtouse3.jpg" alt="" class="howtouse-image">
+                </div>
+                <div class="col-6 col-md 3">
+                    <img src="./Image/img-howtouse4.jpg" alt="" class="howtouse-image">
+                </div>
+            </div>
+        </div>
+        <!-- Ads Apps -->
+        <div class="app d-flex justify-content-center row">
+            <div class="app-content col col-12 col-xl-6">
+                <img class="image-logo" src="./Image/img-logo.png" alt="" >
+                <h1 class="app-header">TÌM KIẾM CHỖ Ở GIÁ TỐT NHẤT</h1>
+                <p class="app-des">Luxstay hiện là nền tảng đặt phòng trực tuyến #1 Việt Nam. Đồng hành cùng chúng tôi, bạn có những chuyến đi mang đầy trải nghiệm. Với Luxstay, việc đặt chỗ ở, biệt thự nghỉ dưỡng, khách sạn, nhà riêng, chung cư... trở nên nhanh chóng, thuận tiện và dễ dàng.</p>
+
+                <div class="app-link">
+                    <div class="app-qr ">
+                        <img src="/Image/image-qrcode.png" alt="">
+                    </div>
+                    <div class="app-store">
+                        <div class="app-icon " >
+                            <a href="#"><img src="/Image/image-apple-store.svg" alt=""></a>
+                        </div>
+                        <div class="app-icon " >
+                            <a href="#"><img src="/Image/image-google-play.svg" alt=""></a>
+                        </div>
+                        <div class="app-icon">
+                            <a href="#"><img src="/Image/image-huawei.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="app-image col col-12 col-xl-6">
+                <img src="./Image/img-ads-app.png" alt="" >
+            </div>
+        </div>
+        <!-- About -->
+        <div class="about row">
+            <div class=" col-12 col-sm-6 col-lg-3">
+                <img class="about-logo" src="./Image/img-logo.png" alt="" height="120px">
+                <a class="about-contact" href="#"><i class="fa fa-comments"></i>Messenger</a>
+                <br>
+                <a class="about-contact" href="tel:0123-456-789"><i class="fa fa-phone"></i>Call Center</a>
+
+            </div>
+            <div class="homestay col-6 col-lg-3">
+                <h3 class="about-header">TOP HOMESTAY ĐƯỢC YÊU THÍCH</h3>
+                <ul class="about-list">
+                    <li class="about-item"><a href="#">Homestay Da Lat</a></li>
+                    <li class="about-item"><a href="#">Homestay Ha Noi</a></li>
+                    <li class="about-item"><a href="#">Homestay Ho Chi Minh</a></li>
+                    <li class="about-item"><a href="#">Homestay Sapa</a></li>
+                    <li class="about-item"><a href="#">Homestay VUng Tau</a></li>
+                    <li class="about-item"><a href="#">Homestay Tam Dao</a></li>
+                    <li class="about-item"><a href="#">Homestay Hoi An</a></li>
+                    <li class="about-item"><a href="#">Homestay Da Nang</a></li>
+                    <li class="about-item"><a href="#">Homestay Ha Long</a></li>
+                    <li class="about-item"><a href="#">Homestay Phan Thiet</a></li>
+                </ul>
+            </div>
+            <div class="homestay col-6 col-lg-3">
+                <h3 class="about-header">TOP HOMESTAY ĐƯỢC YÊU THÍCH</h3>
+                <ul class="about-list">
+                    <li class="about-item"><a href="#">Can ho dich vu</a></li>
+                    <li class="about-item"><a href="#">Biet thu</a></li>
+                    <li class="about-item"><a href="#">Nha rieng</a></li>
+                    <li class="about-item"><a href="#">Studio</a></li>
+                    <li class="about-item"><a href="#">TRavel Guide</a></li>
+                </ul>
+            </div>
+            <div class=" about-us col-6 col-lg-3">
+                <h3 class="about-header">VỀ CHÚNG TÔI</h3>
+                <ul class="about-list">
+                    <li class="about-item"><a href="#">Blog</a></li>
+                    <li class="about-item"><a href="#">Dieu khoan hoat dong</a></li>
+                    <li class="about-item"><a href="#">1800 6586</a></li>
+                    <li class="about-item"><a href="#">info@luxstay.com</a></li>
+                    <li class="about-item"><a href="#">Trang thong tin danh cho chu nha</a></li>
+                    <li class="about-item"><a href="#">Co hoi nghe nghiep</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- Payment -->
+        <div class="payment row ">
+            <div class="payment-visa col-6">
+                <p class="payment-text">SECURE YOUR TRANSACTION</p>
+                <div class="payment-icon row">
+                    <div class=" col-md-3 col-lg-4">
+                    <img src="./Image/img-visa.svg" alt="" height="80px">
+                    </div>
+                    <div class=" col-md-3 col-lg-4">
+                        <img src="./Image/img-mastercard.svg" alt="" height="80px">
+                    </div>
+                    <div class="col-2 col-md-3 col-lg-4">
+                        <img src="./Image/img-maestro.svg" alt="" height="80px">
+                    </div>
+                </div>
+            </div>
+            <div class="payment-certi col-3">
+                <p class="payment-text">CERTIFICATION</p>
+            </div>
+            <div class=" social col-12 col-sm-3">
+                <p class="payment-text">FOLLOW US</p>
+                <i class="fab fa-instagram social-icon"></i>
+                <i class="fab fa-youtube social-icon"></i>
+                <i class="fab fa-facebook social-icon"></i>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>
+            © 2021 Luxstay. Bản quyền thuộc về Công ty TNHH Luxstay Việt Nam - MSDN: 00000000. Mọi hành vi sao chép đều là phạm pháp nếu không có sự cho phép bằng văn bản của chúng tôi. <br>  Tầng 21 tòa nhà Capital Tower số 109 phố Trần Hưng Đạo, phường Cửa Nam, quận Hoàn Kiếm, Hà Nội. Email: info@luxstay.com, Số điện thoại: 000000000.
+            <br> Số Giấy chứng nhận đăng ký doanh nghiệp: 000000000, ngày cấp: 06/06/2018, nơi cấp: Sở Kế hoạch và Đầu tư TP Hà Nội </p>
+    </div>
+   
+</body>
+<script src="./app/jquery.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="./app/bootstrap-4.0.0/js/bootstrap.bundle.js"></script>
+<script src="./app/bootstrap-4.0.0/js/bootstrap.js"></script>
+<script src="main.js"></script>
+
+</html>

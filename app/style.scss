@@ -1,0 +1,703 @@
+html {
+    font-size: 62.5%;
+    
+}
+a {
+    text-decoration: none;
+}
+.wrapper {
+    padding: 0 25rem;
+}
+// Style Header 
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    z-index: 1;
+}
+.toggle-menu {
+    display: none;
+}
+.content-header {
+    margin-top: 1rem;
+    padding: 0 15rem;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(rgb(22, 22, 22),0.2);
+}
+
+.search-header {
+    margin-left: 3rem;
+    box-shadow: 1px 1px 4px rgb(0 0 0 / 20%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+}
+.search-header > * {
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 3rem;
+    font-size: 1.4rem;
+}
+.search-icon {
+    cursor: pointer;
+    padding: 1rem 2rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    color: white;
+    background-color: black;
+    border-radius: 0.5rem;
+}
+.search-input {
+
+    border-radius: 0.5rem;
+    border: 2px solid transparent;
+}
+
+.input-text {
+    border-width: 0;
+    border: none;
+    outline: none;
+}
+.menu {
+    margin-left: auto;
+}
+#menu-list {
+    display: flex;
+    align-items: center;
+}
+.btn-language {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-language>* {
+    padding: 0.3rem;
+    font-size: 1.5rem;
+}
+.menu-item>a{
+    padding: 1.5rem;
+    font-weight: 700;
+    color: black;
+    font-size: 1.5rem;
+
+}
+.menu-item>a:hover {
+    color: rgb(236, 98, 18);
+    text-decoration: none;
+    transition: all 0.25s linear;
+}
+// Style Banner
+.banner {
+    margin-top: 10rem;
+}
+.banner img {
+    width: 100%;
+    border-radius: 2rem;
+}
+.carousel-indicators {
+    right: 0; 
+    margin-right: 5% !important;
+    left: auto;
+    bottom: 3%;
+}
+.carousel-indicators li {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: rgb(146, 144, 144);
+    cursor: pointer;
+}
+.carousel-indicators .active {
+    background-color: rgb(0, 0, 0);
+}
+.welcome {
+    margin-top: 5rem;
+    &-header {
+        font-size: 3rem;
+        font-weight: 700;
+        line-height: 2;
+    }
+    &-text {
+        font-size: 1.5rem;
+        line-height: 3;
+    }
+    &-sign {
+        font-size: 1.5rem;
+    }
+    &-sign>a {
+        color: black;
+        text-decoration: underline;
+    }
+}
+//Hot address
+.address {
+    margin-top: 3rem;
+    &-header {
+        font-size: 3rem;
+        font-weight: 700;
+        line-height: 1.5;
+    }
+    &-text {
+        font-size: 1.5rem;
+        line-height: 2;
+        margin-bottom: 1rem;
+
+    }
+}
+
+
+.address-slider {
+    &-item 
+    {
+        position: relative;
+        margin-left: 2rem;
+        cursor: pointer;
+    &:first-child {
+        margin-left: -2rem;
+    }
+    &:nth-child(5) {
+        margin-right: 2rem;
+    }
+    }
+    &-img {
+        width: 100%;
+        height: 35rem;
+        border-radius: 1rem;
+        object-fit: cover;
+        object-position: center;
+    }
+    &-text {
+        position: absolute;
+        bottom: 3rem;
+        left: 3rem;
+        color: white;
+
+    }
+    &-location {
+        font-size: 2rem;
+        line-height: 2;
+        font-weight: 700;
+    }
+    &-number {
+        font-size: 2rem;
+        font-weight: 500;
+    }
+    
+    &-text>p {
+        font-size: 1.5rem;
+    }
+    
+}
+.slick{
+
+    &-arrow
+    {
+
+        position: absolute;
+        width: 5rem;
+        height: 5rem;
+        border-radius: 50%;
+        border: 1px solid rgba(rgb(22, 22, 22),0.2);
+        background-color: white;
+        &:focus {
+            outline: none;
+        }
+        top: 0;
+        font-size: 2rem;
+        box-shadow: 0 0 7px -4px #000;
+        &:focus {
+            color: salmon;
+            box-shadow: 0 0 7px -4px salolon;
+        }
+    }
+    
+    &-prev {
+        left: -5rem;
+        top: 50%;
+        transform: translateY(-50%); 
+    }
+    &-next {
+        right: -3rem;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+// Offer excu
+.offer  {
+    margin-top: 5rem;
+    &-header {
+        font-size: 3rem;
+        font-weight: 700;
+        line-height: 1.5;
+    }
+    &-text {
+        font-size: 1.5rem;
+        line-height: 2;
+        margin-bottom: 1rem;
+
+    }
+    &-image {
+        width: 96%;
+        border-radius:1rem ;
+    }
+    
+} 
+//Recommend 
+.recommend {
+    margin-top: 5rem;
+    &-header {
+        font-size: 3rem;
+        font-weight: 700;
+        line-height: 2;
+
+    }
+    &-text {
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+    }
+    &-slider {
+        &-item 
+        {
+            margin-left: 2rem;
+            cursor: pointer;
+        &:first-child {
+            margin-left: -2rem;
+        }
+        &:nth-child(4) 
+        {
+            margin-right: 2rem;
+        }
+       
+        }
+        &-img {
+            max-width: 100%;
+            max-height: 30rem;
+            border-radius: 1rem;
+            object-fit: cover;
+        }
+        &-location {
+            text-transform: uppercase;
+            color: rgb(94, 92, 92);
+        }
+        
+        &-text {
+            font-size: 1.3rem;
+            line-height: 2;
+            cursor: pointer;
+        }
+        &-des:hover {
+            color: salmon;
+            transition: all 0.2s linear;
+        } 
+    }
+}
+//How to use
+.howtouse {
+    margin-top: 3rem;
+    &-header {
+        font-size: 3rem;
+        font-weight: 700;
+        line-height: 2;
+
+    }
+    &-text {
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+    }
+    &-image{
+        cursor: pointer;
+        display: block;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+// Ads App
+.app {
+    margin-bottom: 10rem;
+    margin-top: 10rem;
+    &-header {
+        font-size: 3rem;
+        font-weight: 700;
+        line-height: 2;
+
+    }
+    &-des {
+        font-size: 2rem;
+        margin-bottom: 10rem;
+        line-height: 2;
+    }
+    &-image>img {
+        width: 100%;
+    }
+    &-link {
+        display: flex;
+    }
+    &-qr {
+        width: 30%;
+    }
+    &-store {
+        width: 70%;
+    }
+    &-qr>img {
+        width: 18rem;
+        height: 18rem;
+        object-fit: cover;
+        padding: 1rem;
+        border: 1px solid black;
+    } 
+    &-store {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    &-icon {
+        width: 40%;
+    }
+}
+// About
+.about {
+    &-logo {
+        display: block;
+        transform: translateY(-4rem);
+    }
+    &-contact {
+        display: block;
+        padding: 1rem;
+        font-size: 3rem;
+        color: black;
+        transform: translateY(-4rem);
+    &>i {
+        color: rgb(236, 98, 18);
+        padding-right: 2rem;
+
+    }
+    }
+        &-header {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 3rem;
+        }
+        &-item>a {
+               color: black; 
+               line-height: 2;
+               font-size: 2rem;
+        }
+}
+//Payment
+.payment {
+    margin-top: 10rem;
+    margin-left: 44rem;
+    &-text {
+        font-size: 2rem;
+        padding-bottom: 3rem;
+    }
+    &-icon>div {
+        padding: 0 !important;
+    }
+}
+.social-icon {
+    padding: 1rem;
+    font-size: 3rem;
+}
+//footer
+.footer 
+{
+    margin-top: 5rem;
+    border-top: 1px solid rgb(218, 215, 215);
+    &>p{
+
+        text-align: center;
+        line-height: 2;
+        font-size: 2rem;
+        color: rgb(122, 120, 120);
+    }
+}
+.calendar {
+    display: none;
+    position: absolute;
+    text-align: center;
+    background-color: rgb(248, 129, 129);
+    left: 40rem;
+    top: 7rem;
+    border-radius: 1rem;
+    animation: hide ease-in 0.3s; 
+    h1 {
+        padding: 1rem;
+        font-weight: 700;
+        font-size: 2rem;
+    }
+    table {
+        margin: 1rem;
+    }
+    th {
+        padding: 1rem;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    td {
+        padding: 1rem;
+        background-color: rgb(243, 242, 242);
+        cursor: pointer;
+        border: 1px solid rgba(rgb(22, 22, 22),0.2);
+    }
+    td:hover {
+        border: 1px solid rgba(rgb(22, 22, 22),0.2);
+        background-color: rgb(13, 236, 132);
+    }
+}
+.customer {
+    display: none;
+    position: absolute;
+    top: 7rem;
+    left: 55rem;
+    width: 25rem;
+    color: white;
+    background-color:white;
+    box-shadow: 1px 1px 4px rgba(rgb(22, 22, 22),0.2);
+    border-radius: 1rem;
+    animation: hide ease-in-out 0.3s;
+    background-color: rgb(248, 129, 129);
+    
+    &-item {
+        padding: 1rem;
+        display: flex;
+        text-align: center;
+        
+       span {
+           width: 20%;
+           padding:1.5rem 1rem;
+           
+       }
+       span:first-child {
+           width: 50%;
+       }
+       span:nth-child(odd){
+           font-size: 2rem;
+       }    
+       span:nth-child(even) {
+        border: 1px solid rgba(rgb(22, 22, 22),0.2);
+        border-radius: 50%;
+        font-size: 1.5rem;
+        cursor: pointer;
+        &:hover {
+            color: salmon;
+        }
+       }
+    }
+}
+    @keyframes hide {
+      
+        0% {
+            opacity: 0.6;
+
+        }
+        70% {
+            
+            opacity: 0.8;
+
+        }
+        100% {
+            opacity: 1;
+        }
+    
+    
+}
+.js-hide{
+    display: block !important;
+}
+.js-menu-mobile {
+    display: block !important; 
+}
+
+@media screen and (max-width:1024px) {
+    .wrapper {
+        padding: 0 1rem;
+    }
+
+    .search-header {
+        margin: 0;
+    }
+    .content-header {
+        padding: 0 1rem;
+    
+    }
+    .calendar {
+        left: 25rem;
+
+    }
+    .customer {
+        left: 35rem;
+    }
+    .payment {
+        margin-left: 0;
+    }
+    .slick-arrow {
+        display: none !important;
+    }
+    .address-slider-item:nth-child(5) {
+        margin-right: 0;
+    }
+}
+@media screen and (max-width:768px ) {
+    .wrapper {
+        width: 100%;
+    }
+    .carousel-indicators  {
+        display: none;
+    }
+    .recommend-slider-item:first-child {
+        margin-left: 0rem;
+    }
+
+    .menu {
+        width: 100%;
+        display: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 40%;
+        background-color: rgba(248, 129, 129,0.5);
+        border-end-start-radius: 2rem;
+        animation: hide ease-in 0.3s ;
+    }
+    #menu-list {
+        display: block;
+        li {
+            padding: 1.5rem;
+            text-align: right;
+        a {
+            color: rgb(0, 0, 0);
+            line-height: 2rem;
+        }
+        button {
+            margin-left: auto;
+        }
+        &:first-child {
+            margin-top: 5rem;
+        }
+        &:hover {
+            background-color: rgba(230, 23, 23, 0.603);
+        }
+        
+        }
+
+    }
+
+    .icon-header {
+        margin-left: 3rem;
+
+    }
+    .toggle-menu {
+        display: block;
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 5rem;
+    }
+    .homestay {
+        display: none;
+    }
+    .app {
+        margin-top: 0;
+    }
+    .howtouse-text,.recommend-slider-text,.offer-text,.welcome-text,.address-text {
+        font-size: 2rem;
+    }
+    .about {
+        width: 100%;
+    }
+    .payment {
+        width: 100%;
+    }
+    .app 
+    {
+        width: 100%;
+    }
+    .header {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 415px) {
+    .icon-header {
+        margin-left: 0;
+
+    }
+    .fa-search {
+        display: none;
+    }
+    .search-header>* {
+        padding: 1rem;
+        font-size: 1rem;
+    }
+    .toggle-menu {
+        margin-left: 0;
+    }
+    .menu {
+        width: 100%;
+    }
+    #menu-list {
+        li:first-child {
+            margin-top: 0;
+        }
+    }
+    .calendar {
+        left: 5rem;
+
+    }
+    .customer {
+        left: 10rem;
+    }
+    .about {
+        width: 100%;
+    }
+    .payment {
+        width: 100%;
+    }
+    .app 
+    {
+        width: 100%;
+    }
+    .header {
+        width: 100%;
+    }
+    .welcome-text {
+        line-height: 2;
+    }
+    .app-image {
+        display: none;
+    }
+    .app-qr {
+        display: none;
+    }
+    .app-store{
+        width: 100%;
+        display: block;
+    }
+    .app-icon {
+        margin: 2px auto;
+    }
+    .app-des {
+        margin-bottom: 1rem;
+    }
+    .about-us {
+        display: none;
+    }
+    .payment {
+        margin-top: 1rem;
+    }
+    .payment-visa, .payment-certi {
+        display: none;
+
+    }
+    .social {
+        margin: 0 auto;
+    }
+    
+
+    
+
+}
