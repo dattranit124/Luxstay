@@ -333,6 +333,7 @@ a {
 }
 .app-store {
   width: 70%;
+  margin-left: 1rem;
 }
 .app-qr > img {
   width: 18rem;
@@ -347,6 +348,7 @@ a {
 }
 .app-icon {
   width: 40%;
+  margin-left: 3rem;
 }
 
 .about-logo {
