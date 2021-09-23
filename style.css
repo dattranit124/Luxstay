@@ -7,7 +7,7 @@ a {
 }
 
 .wrapper {
-  padding: 0 25rem;
+  padding: 0 20rem;
 }
 
 .header {
@@ -318,7 +318,7 @@ a {
   line-height: 2;
 }
 .app-des {
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-bottom: 10rem;
   line-height: 2;
 }
@@ -336,8 +336,8 @@ a {
   margin-left: 1rem;
 }
 .app-qr > img {
-  width: 18rem;
-  height: 18rem;
+  width: 15rem;
+  height: 15rem;
   object-fit: cover;
   padding: 1rem;
   border: 1px solid black;
@@ -358,7 +358,7 @@ a {
 .about-contact {
   display: block;
   padding: 1rem;
-  font-size: 3rem;
+  font-size: 2rem;
   color: black;
   transform: translateY(-4rem);
 }
@@ -379,10 +379,10 @@ a {
 
 .payment {
   margin-top: 10rem;
-  margin-left: 44rem;
+  margin-left: 30rem;
 }
 .payment-text {
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding-bottom: 3rem;
 }
 .payment-icon > div {
@@ -401,7 +401,7 @@ a {
 .footer > p {
   text-align: center;
   line-height: 2;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #7a7878;
 }
 
