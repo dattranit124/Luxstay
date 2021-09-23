@@ -350,6 +350,9 @@ a {
   width: 40%;
   margin-left: 3rem;
 }
+.app-icon img {
+  width: 100%;
+}
 
 .about-logo {
   display: block;
@@ -496,6 +499,11 @@ a {
   display: block !important;
 }
 
+@media screen and (max-width: 1280px) {
+  .wrapper {
+    padding: 0 1rem;
+  }
+}
 @media screen and (max-width: 1024px) {
   .wrapper {
     padding: 0 1rem;
