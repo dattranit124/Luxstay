@@ -7,7 +7,7 @@ a {
 }
 
 .wrapper {
-  padding: 0 20rem;
+  padding: 0 15rem;
 }
 
 .header {
@@ -377,7 +377,7 @@ a {
 .about-item > a {
   color: black;
   line-height: 2;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .payment {
